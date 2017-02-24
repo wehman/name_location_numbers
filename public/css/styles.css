@@ -1,0 +1,22 @@
+form {text_align: center} 
+
+	.center {text-align: center;
+	}
+
+	.blue{
+		color: blue;
+	}
+
+	.red{
+		color:	red;
+	}
+
+	.peach_color{
+		color:#ffee99;
+	}
+
+	.bg_color{
+		background-color:gray;
+	}
+	
+}

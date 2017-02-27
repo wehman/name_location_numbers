@@ -1,16 +1,14 @@
-Hi <%= name %>. 
+<h1> Hi <%= name %>. </h1> 
 <br>
-You are <%= age %> years old. 
+<h2> You are <%= age %> years old. </h2> 
 <br> 
-What are your three favorite numbers?
+<h3> What are your three favorite numbers? </h3>
 <br> 
-<br>
 
 <form action = "post_numbers" method = "post">
 	<input type = "text" name = "num_1">
 	<input type = "text" name = "num_2">
-	<input type = "text"
-	name = "num_3">
+	<input type = "text" name = "num_3">
 	<input type = "text" name = "user_name" value = <%= name %> hidden>
 	<input type = "text" name = "user_age" value = <%= age %> hidden>
 	<input type = "submit">
